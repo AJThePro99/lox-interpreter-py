@@ -1,4 +1,6 @@
 import sys
+from run_dir.run import runFile, runPrompt
+
 
 def main(args):
     if len(args) > 1:
@@ -8,7 +10,6 @@ def main(args):
         runFile(args[0])
     else:
         runPrompt()
-
 
 
 if __name__ == "__main__":
