@@ -13,6 +13,8 @@ def runPrompt():
             break
         run(line)
 
+
 def run(source):
     # TODO: Scan tokens
     # TODO: For now, print the tokens
+    pass
